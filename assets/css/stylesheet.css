@@ -1,0 +1,7 @@
+.contenus {
+    @font-face {
+        font-family: raleway;
+        src: url('../fonts/Raleway-Regular.woff2');
+        src: url('../fonts/Raleway-Regular.ttf') format ('truetype')
+    }
+}
