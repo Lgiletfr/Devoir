@@ -1,7 +1,10 @@
-.contenus {
+.titres {
+    font-family: Lato;
+}
+
+.p1 {
     @font-face {
-        font-family: raleway;
-        src: url('../fonts/Raleway-Regular.woff2');
-        src: url('../fonts/Raleway-Regular.ttf') format ('truetype')
+        font-family: Raleway;
+        src: url('../fonts/'));
     }
 }
