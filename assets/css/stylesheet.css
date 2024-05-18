@@ -1,10 +1,15 @@
-.titres {
-    font-family: Lato;
+header{
+    background-color: #782221;
 }
 
-.p1 {
-    @font-face {
-        font-family: Raleway;
-        src: url('../fonts/'));
-    }
+main{
+    background-color: #782221;
+}
+
+footer{
+    background-color: #782221;
+}
+
+address{
+    background-color: #2c1d27;
 }
