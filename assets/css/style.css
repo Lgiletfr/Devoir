@@ -55,4 +55,5 @@ a{
 
 .exp:hover{
     border-right: solid 10px #782221;
+    opacity: 70%;
 }
