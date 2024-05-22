@@ -1,66 +1,64 @@
-/* RESET CSS */
-body {
-    margin: 0;
+*{
+    box-sizing: border-box;
 }
 
-html{
-   height: auto;
-   width: 1160px;
+body{
+    margin: 0;
+    padding: 0;
+    width: 1160px;
+    background-color: #782221;
 }
 
 header{
-    background-color: #782221;
     display: flex;
     flex-direction: column;
-}
-
-main, footer{
-    background-color: #782221;
-}
-
-#photo{
-    width : 150px;
-    height : 150px;
-    border-radius: 100px;
-    background-color: white;
-    box-shadow: 0 0 15px  white;
-    margin: auto;
-}
-
-#photo:hover{
-    cursor: zoom-in;
-}
-
-#adress{
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
-#adress:hover{
-    text-decoration: underline;
+#en-tete{
+    background-color: #2c1d27;
+    font-family: raleway;
+    padding: 30px;
+    display: flex;
 }
 
-#corps{
-    border-right: solid;
-    background-color: white;
-}
-
-#cv{
+main{
     display: flex;
     flex-direction: row;
+}
+
+#bloc-gauche{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#bloc-droit{
+    width: 70%;
+    background-color: white;
+    border-right: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 img{
     height: 100px;
+    width: 100px;
 }
 
-img:hover{
+.logo:hover{
     opacity: 60%;
 }
 
-.titres:hover{
-    border-left: solid 10px #782221;
+p:hover{
+    border-right: solid 1px #782221;
 }

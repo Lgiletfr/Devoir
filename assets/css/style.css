@@ -3,44 +3,56 @@
     src: url('../fonts/Raleway-Regular.woff2')
 }
 
-.p2{
-    font-family: "Raleway";
-    color: white;
-    text-indent: 100px;
-    text-align: justify;
-    margin: 20px;
-}
-
-.p3{
-    font-family: "Raleway";
-    color: black;
-}
-
-#p1{
-    font-family: "Raleway";
-    background-color: #2c1d27;
-    color: white;
-}
-
-.titres {
-    font-family: Lato;
-    background-color: #dbc2a4;
-}
-
-.titre{
+.titreB{
     font-family: Lato;
     color: white;
     text-align: center;
 }
 
-#adress{
+.titresN{
     font-family: Lato;
-    font-style: italic;
-    color: white;
-    background-color: #2c1d27;
+    background-color: #dbc2a4;
+    padding-left: 20px;
+    border-left: solid 10px #782221;
 }
 
-a {
+.p1{
+    font-family: raleway;
+    color: white;
+}
+
+#p2{
+    font-family: raleway;
+    color: white;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#bloc-droit{
+    font-family: raleway;
+}
+
+#photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+}
+
+a{
     text-decoration:none;
     color: white;
-    }
+}
+
+#en-tete:hover{
+    text-decoration: underline white;
+}
+
+#photo:hover{
+    cursor: zoom-in;
+}
+
+.exp:hover{
+    border-right: solid 10px #782221;
+}
