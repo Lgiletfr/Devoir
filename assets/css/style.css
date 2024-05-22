@@ -6,16 +6,9 @@
 .p2{
     font-family: "Raleway";
     color: white;
-}
-
-.titres {
-    font-family: Lato;
-    background-color: #dbc2a4;
-}
-
-.p2{
-    font-family: "Raleway";
-    color: white;
+    text-indent: 100px;
+    text-align: justify;
+    margin: 20px;
 }
 
 .p3{
@@ -46,3 +39,8 @@
     color: white;
     background-color: #2c1d27;
 }
+
+a {
+    text-decoration:none;
+    color: white;
+    }

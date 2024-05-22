@@ -3,21 +3,22 @@ body {
     margin: 0;
 }
 
+html{
+   height: auto;
+   width: 1160px;
+}
+
 header{
     background-color: #782221;
     display: flex;
     flex-direction: column;
 }
 
-main{
+main, footer{
     background-color: #782221;
 }
 
-footer{
-    background-color: #782221;
-}
-
-img{
+#photo{
     width : 150px;
     height : 150px;
     border-radius: 100px;
@@ -26,8 +27,8 @@ img{
     margin: auto;
 }
 
-#bloc-droit{
-    background-color: white;
+#photo:hover{
+    cursor: zoom-in;
 }
 
 #adress{
@@ -38,7 +39,28 @@ img{
     align-items: center;
 }
 
+#adress:hover{
+    text-decoration: underline;
+}
+
 #corps{
+    border-right: solid;
+    background-color: white;
+}
+
+#cv{
     display: flex;
     flex-direction: row;
+}
+
+img{
+    height: 100px;
+}
+
+img:hover{
+    opacity: 60%;
+}
+
+.titres:hover{
+    border-left: solid 10px #782221;
 }
